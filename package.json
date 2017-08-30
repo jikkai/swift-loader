@@ -1,0 +1,13 @@
+{
+  "name": "swift-loader",
+  "version": "0.1.0",
+  "description": "Swift loader module for webpack",
+  "author": "Jikkai Xiao <sonne@asaki.me>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+  },
+  "dependencies": {
+    "shift.js": "^0.1.1"
+  }
+}
