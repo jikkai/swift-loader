@@ -27,3 +27,22 @@ repeat {
   print("tminus: \(num--)")
 } while num > 0
 print("Blast off!")
+
+
+func greet(n:String,d:String)->String{
+  var greet1 = "Hello \(n)."
+  var greet2 = "Today is \(d)."
+  return greet1 + "  " + greet2
+  }
+  greet("Bob", d: "Thursday")
+
+  func newIncrement() -> ((Int)-> Int) {
+  func addOne(number: Int) -> Int {
+    func anon(n: Int) -> Int {
+      return 1 + n
+    }
+    return anon(number)
+  }
+  return addOne
+}
+print(greet("A", "B"))
